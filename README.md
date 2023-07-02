@@ -41,7 +41,8 @@ LangBuddy is a language learning web application that helps users practice and i
    git clone https://github.com/hmrserver/LangBuddy.git
    
 2. Commands
-   Open terminal in frontend folder and run command
+   
+   - Open terminal in frontend folder and run command
    ```bash
    npm i
    ```
@@ -49,7 +50,7 @@ LangBuddy is a language learning web application that helps users practice and i
    ```bash
    npm run dev
    ```
-   Open terminal in backend folder and run command
+   - Open terminal in backend folder and run command
    ```bash
    npm i
    ```

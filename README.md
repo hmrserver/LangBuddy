@@ -46,7 +46,6 @@ LangBuddy is a language learning web application that helps users practice and i
    ```bash
    npm i
    ```
-   run command
    ```bash
    npm run dev
    ```
@@ -54,7 +53,6 @@ LangBuddy is a language learning web application that helps users practice and i
    ```bash
    npm i
    ```
-   run command
    ```bash
    nodemon server.js
    ```  

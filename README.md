@@ -41,22 +41,22 @@ LangBuddy is a language learning web application that helps users practice and i
    git clone https://github.com/hmrserver/LangBuddy.git
    
 2. Commands
-   - Open terminal in frontend folder and run command
-    ```bash
-     npm i
-    ```
-   - run command
-    ```bash
-     npm run dev
-    ```
-   - Open terminal in backend folder and run command
-     ```bash
-     npm i
-     ```
-   - run command
-    ```bash
-     nodemon server.js
-    ```  
+   Open terminal in frontend folder and run command
+   ```bash
+   npm i
+   ```
+   run command
+   ```bash
+   npm run dev
+   ```
+   Open terminal in backend folder and run command
+   ```bash
+   npm i
+   ```
+   run command
+   ```bash
+   nodemon server.js
+   ```  
 
 # Technologies Used
 - React.js for the frontend

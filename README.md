@@ -16,3 +16,9 @@ LangBuddy is a language learning web application that helps users practice and i
 
    ```bash
    git clone https://github.com/hmrserver/LangBuddy.git
+
+
+# Technologies Used
+- React.js for the frontend
+- Node.js and Express.js for the backend
+- ffmpeg for video Trimming

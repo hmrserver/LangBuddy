@@ -6,16 +6,9 @@ LangBuddy is a language learning web application that helps users practice and i
 
 - Interactive exercises for vocabulary building
 - Grammar lessons and practice exercises
-- Pronunciation practice with audio recordings
-- Progress tracking and performance analytics
+- Pronunciation practice with video recordings
 - User-friendly interface with a responsive design
 
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/hmrserver/LangBuddy.git
 
 
 # Technologies Used

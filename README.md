@@ -4,10 +4,8 @@ LangBuddy is a language learning web application that helps users practice and i
 
 ## Features
 
-- Interactive exercises for vocabulary building
-- Grammar lessons and practice exercises
-- Pronunciation practice with audio recordings
-- Progress tracking and performance analytics
+- Pronunciation practice with video recordings
+- Find Movies with their dialogues
 - User-friendly interface with a responsive design
 
 ## Installation

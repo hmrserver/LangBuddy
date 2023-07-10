@@ -1,29 +1,3 @@
-// import "./App.css";
-// import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-// import {Home} from "./components/Home";
-// import {Search} from "./components/Search";
-
-// function App() {
-//   return (
-//     <>
-//     <div>
-//     <Router>
-//     <Routes>
-//       <Route path="/" element={<Home />} />
-//       <Route path="/search" element={<Search />} />
-//       <Route path="*" element={<h1>404 PAGE NOT FOUND</h1>}/>
-//       </Routes>
-//   </Router>
-//     </div>
-//       {/* <div className="flex items-center justify-center h-screen">
-//       <button className="btn">Hello daisyUI</button>
-//       </div> */}
-//     </>
-//   );
-// }
-
-// export default App;
-
 import React, { useState } from "react";
 import { Card } from "./components/Card";
 import { SkeletonCard } from "./components/SkeletonCard";

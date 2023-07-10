@@ -144,7 +144,7 @@ const App = () => {
 
     try {
       const response = await axios.get(
-        `http://localhost:3000/api/v1/${searchTerm}`
+        `${process.env.BACKEND_URL}/api/v1/${searchTerm}`
       );
       setData(response.data);
     } catch (error) {

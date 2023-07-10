@@ -79,9 +79,9 @@ exports.videoCutter = async (req, res) => {
       clips.push({
         movieId: movie._id,
         movieName: movie.movieName,
-        clipURL: `http://localhost:3000/clips/${clipFilename}`,
+        clipURL: `${process.env.BACKEND_URL}/clips/${clipFilename}`,
         transcript: transcript,
-        thumbnailURL: `http://localhost:3000/thumbnails/${thumbnailFilename}`,
+        thumbnailURL: `${process.env.BACKEND_URL}/thumbnails/${thumbnailFilename}`,
       });
     }
 

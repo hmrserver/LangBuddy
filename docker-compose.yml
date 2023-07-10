@@ -1,0 +1,28 @@
+version: '3'
+services:
+  frontend:
+    depends_on:
+      - backend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        BACKEND_URL: http://localhost:3000
+    ports:
+      - 80:80
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      args:
+        BACKEND_URL: http://localhost:3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./backend/clips:/app/clips
+      - ./backend/transcript:/app/transcript
+      - ./backend/videos:/app/videos
+      - ./backend/thumbnails:/app/thumbnails
+
+    

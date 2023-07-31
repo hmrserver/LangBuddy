@@ -24,6 +24,9 @@ jobs:
           git clone https://github.com/${{ github.repository }}.git ${{ github.event.repository.name }}
           rsync -a --exclude='.git' --exclude='Dockerfile' --exclude='docker-compose.yml' --exclude='transcript' --exclude='clips' --exclude='videos' ${{ github.event.repository.name }}/ ${{ secrets.VPS_PROJECT_PATH }}
           cd ${{ secrets.VPS_PROJECT_PATH }}
+          chmod -R 777 backend/transcript
+          chmod -R 777 backend/clips
+          chmod -R 777 backend/videos
           docker compose down
           docker compose up -d --build
           cd /home/${{ secrets.VPS_USERNAME }}/tmp

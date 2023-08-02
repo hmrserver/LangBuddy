@@ -1,6 +1,6 @@
 
-import { Card } from "./components/Card";
-import { SkeletonCard } from "./components/SkeletonCard";
+import { Card } from "./Card";
+import { SkeletonCard } from "./SkeletonCard";
 
 export const Content = ({ data, isLoading }) => {
     if (isLoading) {

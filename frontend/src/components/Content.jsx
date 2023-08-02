@@ -14,7 +14,7 @@ export const Content = ({ data, isLoading }) => {
     }
   
     return (
-      <div className="grid grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-3 place-items-center gap-4 p-4">
         {(data.clips &&
           data.clips.map((item) => (
             <Card

@@ -5,7 +5,7 @@ import { SkeletonCard } from "./SkeletonCard";
 export const Content = ({ data, isLoading }) => {
     if (isLoading) {
       return (
-        <div className="flex flex-row justify-evenly p-4">
+        <div className="flex flex-wrap justify-evenly p-4">
           <SkeletonCard />
           <SkeletonCard />
           <SkeletonCard />
@@ -14,7 +14,7 @@ export const Content = ({ data, isLoading }) => {
     }
   
     return (
-      <div className="flex flex-row justify-evenly p-4">
+      <div className="flex flex-wrap justify-evenly p-4">
         {(data.clips &&
           data.clips.map((item) => (
             <Card

@@ -10,7 +10,7 @@ export const Card = ({ title, description, image, clipurl }) => {
 
   if (selectedCard) {
     return (
-      <div className="p-4">
+      <div className="p-4 basis-1/4">
         <h2 className="text-2xl font-bold">{selectedCard.title}</h2>
         <p className="text-gray-700 dark:text-gray-400">
           {selectedCard.description}
@@ -23,7 +23,7 @@ export const Card = ({ title, description, image, clipurl }) => {
     );
   }
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 basis-1/4">
       <a>
         <img className="rounded-t-lg" src={image} alt="" />
       </a>

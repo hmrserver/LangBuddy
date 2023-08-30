@@ -36,3 +36,4 @@ LangBuddy is a language learning web application that helps users practice and i
 - React.js for the frontend
 - Node.js and Express.js for the backend
 - ffmpeg for video Trimming
+test
